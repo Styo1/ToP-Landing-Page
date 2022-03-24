@@ -1,2 +1,2 @@
 # ToP-Landing-Page
-Landing Page in HTML/CSS
+A landing page to practice HTML and CSS flexbox
