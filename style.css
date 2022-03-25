@@ -1,0 +1,173 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #F3EEE2;
+    font-family: 'Open Sans', sans-serif;
+    color: #240506;
+}
+
+.topbg {
+    background-color: #360709;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 1em 12em;
+}
+
+.header img {
+    height: 5%;
+    width: 5%;
+}
+
+.links {
+    display: flex;
+    gap: 2em;
+    margin-left: auto;
+}
+
+.links a {
+    color: #F3EEE2;
+}
+
+.top-section {
+    display: flex;
+    padding: 5em 12em;
+    align-items: center;
+}
+
+
+.top-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-section img {
+    height: auto;
+    width: 85%;
+    border: 1px solid #f3eee227;
+    border-radius: 1em;
+}
+
+.top-text {
+    display: flex;
+    flex-direction: column;
+    color: #F3EEE2;
+    gap: 1em;
+}
+
+.title {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.top-text p {
+    font-size: 1.2em;
+    color: #EDE5D4;
+}
+
+.button, .bottom-button {
+    background-color: #A2A7A5;
+    color: #240506;
+    border: 1px solid #07090F;
+    width: 3.5em;
+    padding: 8px 30px;
+    border-radius: .5em;
+    font-size: 1.2em;
+}
+
+.pic-section {
+    display: flex;
+    flex-direction: column;
+    padding: 3em 12em;
+    align-items: center;
+}
+
+.pic-section h2 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+
+.photos {
+    display: flex;
+}
+
+.photos div {
+    display: flex;
+    justify-content: center;
+    border: .5em solid #08415C;
+    border-radius: 5%;
+    margin: 2em 2em 1em 2em;
+    padding: 3em;
+    height: 3em;
+    width: 3em;
+}
+
+.text {
+    display: flex;
+}
+
+.text p {
+    text-align: center;
+    margin: 0 2em;
+    width: 10em;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6em 14em;
+    background-color: #08415C;
+    color: #EDE5D4;
+    font-weight: 300;
+    gap: 1em;
+}
+
+
+.banner .quote {
+    font-size: 1.5em;
+    line-height: 150%;
+    font-style: italic;
+}
+
+.banner .author {
+    align-self: flex-end;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom {
+    color: #240506;
+    display: flex;
+    align-items: center;
+    margin: 5em 12em;
+    padding: 3em 6em;
+    border-radius: 1em;
+    background-color: #A2A7A5;
+    gap: 5em;
+    max-width: 1000px;
+}
+
+.bottom-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-button {
+    margin-left: auto;
+}
+
+.footer {
+    padding: 2em;
+    color: #EDE5D4;
+    background-color: #240506;
+    text-align: center;
+}
