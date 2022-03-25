@@ -165,6 +165,10 @@ body {
     margin-left: auto;
 }
 
+.bottom-button a {
+    color: #07090F;
+}
+
 .footer {
     padding: 2em;
     color: #EDE5D4;
